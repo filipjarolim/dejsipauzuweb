@@ -15,6 +15,15 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Dej si pauzu — Micro‑breaks for well‑being",
   description: "A simple way to take mindful micro‑breaks, recharge, and return with clarity.",
+  openGraph: {
+    title: "Dej si pauzu — Micro‑breaks for well‑being",
+    description: "A simple way to take mindful micro‑breaks, recharge, and return with clarity.",
+  },
+  twitter: {
+    card: "summary",
+    title: "Dej si pauzu — Micro‑breaks for well‑being",
+    description: "A simple way to take mindful micro‑breaks, recharge, and return with clarity.",
+  },
 };
 
 export default function RootLayout({
